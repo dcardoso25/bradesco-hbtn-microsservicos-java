@@ -1,0 +1,31 @@
+O que é o Spring Boot?
+
+O Spring Boot é um framework Java criado em 2013, derivado do Spring MVC, que facilita o desenvolvimento de aplicações modernas — especialmente microsserviços. Ele reduz configurações manuais e permite criar aplicações prontas para rodar com poucas linhas de código.
+Benefícios e Recursos
+
+Configuração automática: o Spring Boot identifica e configura dependências sozinho.
+Servidor embutido: vem com Tomcat ou Jetty prontos, sem precisar de deploy manual.
+Gerenciamento de dependências: simples via Maven ou Gradle.
+APIs RESTful fáceis de criar.
+Monitoramento e métricas integradas.
+Integração com bancos de dados (JPA, Hibernate, etc.).
+
+
+Adição de Dependências
+
+As dependências são adicionadas no arquivo:
+pom.xml (para Maven)
+build.gradle (para Gradle)
+Basta incluir as bibliotecas desejadas, como Spring Data JPA, Hibernate, Spring Security, entre outras.
+Também é possível usar o Spring Initializr para gerar o projeto já com tudo configurado.
+
+O que é o Spring Initializr?
+
+O Spring Initializr é uma ferramenta online que cria rapidamente um projeto Spring Boot.
+Você escolhe o nome, versão do Spring, dependências e o tipo de empacotamento — e ele gera tudo pronto para importar na sua IDE.
+
+Melhor IDE para trabalhar com Spring Boot
+
+Na minha opinião, a melhor IDE é o IntelliJ IDEA.
+Ela tem excelente integração com o Spring Boot, autocompletar inteligente, depuração simples e interface moderna.
+O Spring Tools Suite (STS) também é ótimo, pois é feito pela equipe do Spring, mas o IntelliJ costuma ser mais produtivo no dia a dia.
