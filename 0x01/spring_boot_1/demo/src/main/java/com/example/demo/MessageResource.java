@@ -13,8 +13,7 @@ public class MessageResource {
 
     @GetMapping("/simpleMessageWelcome")
     public String simpleMessageWelcome() {
-        // TODO
-        return null;
+        return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
 
     }
 
