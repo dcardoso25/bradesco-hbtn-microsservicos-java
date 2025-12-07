@@ -15,8 +15,11 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
+
     private Long idade;
+
     private String email;
 
     public Cliente(String nome, Long idade, String email) {
@@ -75,4 +78,7 @@ public class Cliente {
     public void setEnderecos(List<Endereco> enderecos) {
         this.enderecos = enderecos;
     }
+
+
+
 }
